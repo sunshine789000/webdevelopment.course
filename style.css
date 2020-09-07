@@ -1,0 +1,157 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+overflow: hidden;
+	box-sizing: border-box;
+
+padding: 2px;
+}
+.div{
+	text-align: justify;
+	padding: 5px;
+}
+
+.container{
+
+width: 803px;
+    height: 44px;
+    text-align: center;padding: 5px;
+ float: right;
+ right: 20px;
+}
+
+
+
+
+section{
+	float: left;
+	width: 30%;
+	 border:1px solid red;
+	 margin: 0 1.5%;
+	 background:Green;
+	 height:280px;
+	 box-sizing: border-box;
+	 text-align: justify;
+	 padding: 10px;
+}
+.div1, .div2, .div3{
+	position: relative;
+	float: right;
+	width: 40%;
+	top: -11px;
+right: -11px;
+	 border:1px solid grey;
+	 margin: 0px;
+	 background:red;
+	 height:30px;
+	 
+	 text-align: center;
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	#leftbox{
+		width: 45%;
+		float: left;
+		height: 160px;
+	}
+#middlebox{
+	width: 45%;
+	float: right;
+	height: 160px;
+}
+#rightbox{
+	width: 97%;
+	position: relative;
+	margin-bottom: 20px;
+	top:20px;
+	height: 160px;
+
+}
+	.div1, .div2{
+		width: 40%;
+	}
+	.div3{
+		width:19%;
+
+	}
+.container{
+	width: 892px;
+    height: 64px;
+}
+
+
+
+}
+@media (max-width: 767px){
+	#leftbox{
+		
+		overflow:auto;
+		
+		width: 94vw;
+	position: relative;
+	margin-bottom: 20px;
+	right: 5px;
+	top:20px;
+	
+	height: 35vw;
+	
+	}
+#middlebox{
+	overflow: auto;
+	
+	width: 94vw;
+	position: relative;
+	margin-bottom: 20px;
+	right: 5px;
+	top:20px;
+	height: 35vw;
+	
+	
+}
+#rightbox{
+	overflow: auto;
+	
+	width: 94vw;
+	position: relative;
+	margin-bottom: 44px;
+	right:5px;
+	top:20px;
+	height: 35vw;
+	
+}
+	.div1, .div2 , .div3{
+		width: 28%;
+	}
+	
+.container{
+	
+	width: 100vw;
+    height: 8vw;
+    
+}
+
+}
+
+@media (min-width: 992px){
+	
+	.div1, .div2, .div3{
+	
+	width: 40%;
+	
+
+}
+.container{
+	width: 926px;
+    height: 58px;
+}
+
+
+
+}
+
+
+        
