@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="verify.css">
+    <link rel="stylesheet" href="css/intlTelInput.css">
+    <title>Verification</title>
+</head>
+<body><div class="div1">
+
+    <img src="image_verify.svg" alt="image of verification" id="logo2">
+
+<div id="div2"><h2>Please verify mobile number</h2></div>
+<div id="div3">  <br><a href="otp.html" target="_self" id="link">Change mobile number</a></h3>
+   
+    
+</div>
+<br>
+<div class="container">
+    <div class="userinput">
+<input id="ist" type="text" maxlength="1" onkeyup="clickEvent(this,'sec')" />
+<input  id="sec" type="text" maxlength="1" onkeyup="clickEvent(this,'third')"/>
+<input  id="third" type="text" maxlength="1" onkeyup="clickEvent(this,'fouth')"/>
+<input id="fouth" type="text" maxlength="1" onkeyup="clickEvent(this,'fouth')" />
+</div>
+<div><p>didint receive the code <span><a href="">resend</a></span></p>
+    </div>
+    <button type="button" onclick="status();">confirm</button>
+    </div>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+    </style>
+<script>
+  var num=localStorage.getItem("phone number")
+console.log(localStorage.getItem("second"))
+
+    document.getElementById("div3").innerHTML="<h3>An OTP is sent to "+num;
+        var first=document.getElementById("ist");
+        var c=""
+        var count=1
+     function clickEvent (first,last){
+
+        if(first.value.length){
+c=c+first.value
+
+
+console.log(c)
+            document.getElementById(last).focus();
+        }
+
+    }
+
+   function status(){
+       var g=localStorage.getItem("second")
+       if(c==g){
+           alert("success")
+           c=""
+       }
+       else{
+           alert("fail")
+           c=""
+       }
+   }
+    </script>
+</body>
+</html>

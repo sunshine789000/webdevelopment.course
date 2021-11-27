@@ -1,0 +1,107 @@
+body{
+    border:flex;
+}
+#logo2{
+    height: 244px;
+    width: 34%;
+    position: inherit;
+    margin-left: 707px;
+    margin-top: 92px;
+    align-content: center;
+    object-fit: cover;
+}
+
+#link{
+    height:10px;
+    width:10px;
+    
+}
+.container{
+    display: flex;
+    flex-flow:column;
+    height: 100%;
+    align-items: space-around;
+    justify-content: center;
+}
+.userinput{
+    display: flex;
+    justify-content: center;
+    margin-top: -795px;
+    margin-left: 637px;
+}
+input{
+    margin:10px;
+    height: 35px;
+    width: 65px;
+    border:none;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1rem;
+    background:wheat;
+}
+
+button{
+    width: 150px;
+    height: 40px;
+    margin-top: -4px;
+    margin-left: 800px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1rem;
+    border: wheat;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    color:tomato;
+}
+
+h2{
+    height: 50px;
+    width: 90%;
+    color: black;
+   
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+margin-left: 388px;
+    position:inherit;
+    object-fit:cover;
+}
+h3{
+    height: 50px;
+    width: 90%;
+    color: black;
+   
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 4px;
+    margin-left: 375px;
+    position: inherit;
+}
+#leg{
+   
+color: black;
+
+border-radius: 6px;
+height: 33px;
+width: 278px;
+margin-top: -20px;
+text-align: justify;
+font-size: 23px;
+font-family:'Montserrat', sans-serif; 
+font-weight: bold;
+}
+.div1{
+    height: 877px;
+    width: 1124px;
+   
+    margin-left: -311px;
+    margin-top:-135px;
+    padding: 69px;
+}
